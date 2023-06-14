@@ -1,0 +1,25 @@
+.react-tabs__tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.react-tabs__tab--selected,
+.react-tabs__tab {
+    border-color: transparent;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.react-tabs__tab--selected {
+    color: #BB8506;
+}
+
+.react-tabs__tab--selected:focus::after {
+    content: ' ';
+    width: 30px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #BB8506;
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.thumbs-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.drawer-side a.active {
+  color: white;
+}
+
+.drawer-side a {
+  background-color: transparent;
+}
